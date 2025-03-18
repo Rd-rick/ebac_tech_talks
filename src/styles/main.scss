@@ -1,4 +1,6 @@
 @use 'hero';
+@use 'componets/infos_bar';
+@use 'componets/buttons';
 
 * {
     box-sizing: border-box;
@@ -6,6 +8,7 @@
     padding: 0;
     font-family: roboto, sans-serif;
     color: #fff;
+    list-style: none;
 }
 
 .container {
